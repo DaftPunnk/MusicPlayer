@@ -7,8 +7,37 @@
 //
 
 import UIKit
+import AVFoundation
 
-class FirstViewController: UIViewController {
+var songs:[String] = []
+var audioPlayer = AVAudioPlayer()
+
+class FirstViewController: UIViewController, UITabBarDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var myTableView: UITableView!
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return songs.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+        cell.textLabel?.text = songs[indexPath.row]
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        do{
+            let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!)as URL)
+            audioPlayer.play()
+        }
+        catch{
+            print ("ERROR")
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,9 +64,10 @@ class FirstViewController: UIViewController {
                     mySong =  findString[findString.count-1]
                     mySong = mySong.replacingOccurrences(of: "%20", with: " ")
                     mySong = mySong.replacingOccurrences(of: ".mp3", with: "")
-                    print (mySong)
+                    songs.append(mySong)
                 }
             }
+            myTableView.reloadData()
         }
         catch {
             
