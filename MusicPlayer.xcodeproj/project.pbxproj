@@ -15,6 +15,8 @@
 		F9569BF42335D30A004355C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9569BF22335D30A004355C5 /* LaunchScreen.storyboard */; };
 		F9569BFF2335D30A004355C5 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9569BFE2335D30A004355C5 /* MusicPlayerTests.swift */; };
 		F9569C0A2335D30A004355C5 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9569C092335D30A004355C5 /* MusicPlayerUITests.swift */; };
+		F9569C1A2335D475004355C5 /* DeadMau5 - Strobe (Radio Edit).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9569C182335D475004355C5 /* DeadMau5 - Strobe (Radio Edit).mp3 */; };
+		F9569C1B2335D475004355C5 /* Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9569C192335D475004355C5 /* Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F9569C052335D30A004355C5 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9569C092335D30A004355C5 /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		F9569C0B2335D30A004355C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9569C182335D475004355C5 /* DeadMau5 - Strobe (Radio Edit).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DeadMau5 - Strobe (Radio Edit).mp3"; sourceTree = "<group>"; };
+		F9569C192335D475004355C5 /* Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				F9569BF02335D30A004355C5 /* Assets.xcassets */,
 				F9569BF22335D30A004355C5 /* LaunchScreen.storyboard */,
 				F9569BF52335D30A004355C5 /* Info.plist */,
+				F9569C172335D475004355C5 /* Songs */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -126,6 +131,15 @@
 				F9569C0B2335D30A004355C5 /* Info.plist */,
 			);
 			path = MusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		F9569C172335D475004355C5 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				F9569C182335D475004355C5 /* DeadMau5 - Strobe (Radio Edit).mp3 */,
+				F9569C192335D475004355C5 /* Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9569C1A2335D475004355C5 /* DeadMau5 - Strobe (Radio Edit).mp3 in Resources */,
 				F9569BF42335D30A004355C5 /* LaunchScreen.storyboard in Resources */,
 				F9569BF12335D30A004355C5 /* Assets.xcassets in Resources */,
+				F9569C1B2335D475004355C5 /* Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3 in Resources */,
 				F9569BEF2335D30A004355C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
