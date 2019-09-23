@@ -17,6 +17,8 @@
 		F9569C0A2335D30A004355C5 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9569C092335D30A004355C5 /* MusicPlayerUITests.swift */; };
 		F9569C1A2335D475004355C5 /* DeadMau5 - Strobe (Radio Edit).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9569C182335D475004355C5 /* DeadMau5 - Strobe (Radio Edit).mp3 */; };
 		F9569C1B2335D475004355C5 /* Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9569C192335D475004355C5 /* Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3 */; };
+		F9FF4AF82339039200FB62A8 /* laser-strobe-lights-photosensitive-AdobeStock_12326812-OG_TW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9FF4AF72339039200FB62A8 /* laser-strobe-lights-photosensitive-AdobeStock_12326812-OG_TW.jpg */; };
+		F9FF4AFA233907B500FB62A8 /* Kygo feat. Conrad Sewell - Firestone (Cover Art).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9FF4AF9233907B500FB62A8 /* Kygo feat. Conrad Sewell - Firestone (Cover Art).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		F9569C0B2335D30A004355C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9569C182335D475004355C5 /* DeadMau5 - Strobe (Radio Edit).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DeadMau5 - Strobe (Radio Edit).mp3"; sourceTree = "<group>"; };
 		F9569C192335D475004355C5 /* Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3"; sourceTree = "<group>"; };
+		F9FF4AF72339039200FB62A8 /* laser-strobe-lights-photosensitive-AdobeStock_12326812-OG_TW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "laser-strobe-lights-photosensitive-AdobeStock_12326812-OG_TW.jpg"; sourceTree = "<group>"; };
+		F9FF4AF9233907B500FB62A8 /* Kygo feat. Conrad Sewell - Firestone (Cover Art).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kygo feat. Conrad Sewell - Firestone (Cover Art).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 				F9569BF02335D30A004355C5 /* Assets.xcassets */,
 				F9569BF22335D30A004355C5 /* LaunchScreen.storyboard */,
 				F9569BF52335D30A004355C5 /* Info.plist */,
+				F9FF4AF72339039200FB62A8 /* laser-strobe-lights-photosensitive-AdobeStock_12326812-OG_TW.jpg */,
 				F9569C172335D475004355C5 /* Songs */,
 			);
 			path = MusicPlayer;
@@ -137,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				F9569C182335D475004355C5 /* DeadMau5 - Strobe (Radio Edit).mp3 */,
+				F9FF4AF9233907B500FB62A8 /* Kygo feat. Conrad Sewell - Firestone (Cover Art).mp3 */,
 				F9569C192335D475004355C5 /* Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3 */,
 			);
 			path = Songs;
@@ -250,6 +256,8 @@
 				F9569BF42335D30A004355C5 /* LaunchScreen.storyboard in Resources */,
 				F9569BF12335D30A004355C5 /* Assets.xcassets in Resources */,
 				F9569C1B2335D475004355C5 /* Post Malone - Goodbyes (Lyrics) ft. Young Thug.mp3 in Resources */,
+				F9FF4AFA233907B500FB62A8 /* Kygo feat. Conrad Sewell - Firestone (Cover Art).mp3 in Resources */,
+				F9FF4AF82339039200FB62A8 /* laser-strobe-lights-photosensitive-AdobeStock_12326812-OG_TW.jpg in Resources */,
 				F9569BEF2335D30A004355C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
